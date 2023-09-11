@@ -31,3 +31,5 @@ build/
 
 ### VS Code ###
 .vscode/
+/ConciliacaoBancaria.jar
+/nao_conciliados/NAO_CONCILIADO.CON

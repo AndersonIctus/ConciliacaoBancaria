@@ -32,9 +32,9 @@ public class ConciliadorCora extends ConciliadorBase {
         String nome = values[3];
 
         // NUMEROS NEGATIVOS SÃO DESPESAS
-//        if (valor.compareTo(BigDecimal.ZERO) < 0) {
-//            tipo = Tipo.DESPESA;
-//        }
+        if (valor.compareTo(BigDecimal.ZERO) < 0) {
+            tipo = Tipo.DESPESA;
+        }
 
         return new DadoComum(getNomeConciliador(), nome, tipo, data, data, valor);
     }
